@@ -1,22 +1,21 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://vgsystems.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: Cosicas sobre desarrollo y SEO
   avatar: avatar.png
   gravatar: # email md5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Blog sobre SEO, desarrollo web y programación en Zaragoza" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Blog hecho en Jekyll @ vguerrero.</p>
+     <h1>DEV trash hole</h1>
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Hecho a mano en Zaragoza ;)
   
   # Icons
   rss: false
@@ -26,17 +25,17 @@ theme:
   dribbble: 
   facebook: 
   flickr: 
-  github: "rohanchandra/type-theme"
+  github: "vgsystems"
   google_plus: 
   instagram: 
-  linkedin:  # full URL
+  linkedin:  https://www.vgsystems.es
   pinterest: 
   reddit: 
   soundcloud: 
   stack_exchange:  # full URL
   steam: 
   tumblr: 
-  twitter: "twitter"
+  twitter: "vm_guerrero"
   wordpress: 
   youtube: 
   
@@ -45,18 +44,18 @@ theme:
   disqus_shortname:
   
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_follow_on: "Sígueme en"
+  str_rss_follow: "Feed RSS"
+  str_email: "e-mail"
+  str_next: "Siguiente"
+  str_prev: "Anterior"
+  str_continue_reading: "Seguir leyendo..."
   
   # Colors, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
-paginate: 5
+paginate: 8 
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
